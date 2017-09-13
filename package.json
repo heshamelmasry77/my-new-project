@@ -1,17 +1,13 @@
 {
-
   "name": "moneyme",
   "version": "1.0.0",
   "engines": {
-    "node": "~8.4.0",
-    "npm":"5.4.1"
+    "node": "~8.4.0"
   },
   "dependencies": {
     "angular": "^1.6.2",
     "angular-ui-router": "1.0.0-beta.3",
-    "express": "^4.15.4"
-  },
-  "devDependencies": {
+
     "@types/angular": "^1.6.6",
     "@types/angular-mocks": "^1.5.9",
     "@types/jquery": "^2.0.40",
@@ -64,9 +60,9 @@
   },
   "scripts": {
     "start": "gulp serve",
+    "heroku-prebuild": "npm install -g npm@5.2.0 && npm install bower && bower install",
     "serve": "gulp serve",
     "serve:dist": "gulp serve:dist",
-    "heroku-prebuild": "npm install -g && npm install bower && bower install",
     "test": "gulp test",
     "test:auto": "gulp test:auto"
   },
