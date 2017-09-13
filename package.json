@@ -58,7 +58,8 @@
   },
   "scripts": {
     "start": "node server.js",
-    "postinstall": "gulp",
+    "heroku-prebuild": "npm install && npm install bower && bower install",
+    "build": "gulp",
     "serve": "gulp serve",
     "serve:dist": "gulp serve:dist",
     "test": "gulp test",
