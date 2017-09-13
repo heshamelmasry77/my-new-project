@@ -63,7 +63,7 @@
     "start": "gulp serve",
     "serve": "gulp serve",
     "serve:dist": "gulp serve:dist",
-    "postinstall": "bower install && gulp build",
+    "postinstall": "npm install && gulp build",
     "test": "gulp test",
     "test:auto": "gulp test:auto"
   },
