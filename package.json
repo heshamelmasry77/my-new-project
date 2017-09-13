@@ -59,7 +59,7 @@
     "babel-loader": "^6.3.2"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "gulp serve",
     "heroku-prebuild": "npm install && npm install bower && bower install",
     "build": "gulp",
     "serve": "gulp serve",
