@@ -66,7 +66,7 @@
     "start": "gulp serve",
     "serve": "gulp serve",
     "serve:dist": "gulp serve:dist",
-    "heroku-prebuild": "npm install -g  && npm install bower && bower install && gulp build",
+    "heroku-prebuild": "npm install -g && npm install bower && bower install",
     "test": "gulp test",
     "test:auto": "gulp test:auto"
   },
